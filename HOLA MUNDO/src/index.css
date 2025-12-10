@@ -1,18 +1,21 @@
+/* Resetear los estilos por defecto del navegador */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Estilos del cuerpo de la página */
 body {
-  min-height: 100vh;
+  min-height: 100vh; /* Altura mínima: 100% del viewport */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f0f0f0;
+  justify-content: center; /* Centrar contenido horizontalmente */
+  align-items: center; /* Centrar contenido verticalmente */
+  background-color: #f0f0f0; /* Color de fondo gris claro */
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+/* Estilos del elemento raíz de React */
 #root {
   width: 100%;
   display: flex;
@@ -20,6 +23,7 @@ body {
   align-items: center;
 }
 
+/* Estilos para cuando el botón tiene el foco */
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
